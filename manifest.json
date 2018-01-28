@@ -1,0 +1,10 @@
+{
+   "description": "Automatically redirect YouTube links to Hooktube.",
+   "icons": { "256": "hook.png" },
+   "background": { "scripts": [ "background.js" ] },
+   "manifest_version": 2,
+   "minimum_chrome_version": "21.0",
+   "name": "HookTuber",
+   "permissions": [ "webRequest", "webRequestBlocking" , "*://*.youtube.com/watch*" ],
+   "version": "1.0.0.0"
+}
